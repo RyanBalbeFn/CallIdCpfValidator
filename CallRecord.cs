@@ -8,7 +8,7 @@ namespace CallIdCpfValidator
 {
     internal class CallRecord
     {
-        public required string CallId { get; set; }
-        public required string Cpf {  get; set; }
+        public required string CallId { get; init; }
+        public required string Cpf {  get; init; }
     }
 }
